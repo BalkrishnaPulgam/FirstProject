@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5524" started-at="2021-10-23T05:13:02Z" finished-at="2021-10-23T05:13:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5524" started-at="2021-10-23T05:13:02Z" finished-at="2021-10-23T05:13:07Z">
+      <class name="com.tests.DashboardTest">
+        <test-method status="PASS" signature="verifyCourses()[pri:4, instance:com.tests.DashboardTest@4883b407]" name="verifyCourses" duration-ms="190" started-at="2021-10-23T05:13:06Z" finished-at="2021-10-23T05:13:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCourses -->
+        <test-method status="PASS" signature="userClick()[pri:5, instance:com.tests.DashboardTest@4883b407]" name="userClick" duration-ms="558" started-at="2021-10-23T05:13:07Z" finished-at="2021-10-23T05:13:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userClick -->
+      </class> <!-- com.tests.DashboardTest -->
+      <class name="com.tests.UserTest">
+        <test-method status="PASS" signature="verifyTableRows()[pri:6, instance:com.tests.UserTest@7d9d1a19]" name="verifyTableRows" duration-ms="39" started-at="2021-10-23T05:13:07Z" finished-at="2021-10-23T05:13:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableRows -->
+      </class> <!-- com.tests.UserTest -->
+      <class name="com.tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.LoginTest@6093dd95]" name="setUp" is-config="true" duration-ms="8884" started-at="2021-10-23T05:12:43Z" finished-at="2021-10-23T05:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Inialization()[pri:0, instance:com.tests.LoginTest@6093dd95]" name="Inialization" is-config="true" duration-ms="10070" started-at="2021-10-23T05:12:52Z" depends-on-methods="com.base.BaseClass.setUp" finished-at="2021-10-23T05:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Inialization -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.tests.LoginTest@6093dd95]" name="verifyTitle" duration-ms="65" started-at="2021-10-23T05:13:02Z" finished-at="2021-10-23T05:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="invalidLoginTest()[pri:2, instance:com.tests.LoginTest@6093dd95]" name="invalidLoginTest" duration-ms="1997" started-at="2021-10-23T05:13:02Z" finished-at="2021-10-23T05:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.tests.LoginTest@6093dd95]" name="loginTest" duration-ms="2604" started-at="2021-10-23T05:13:04Z" finished-at="2021-10-23T05:13:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTest@6093dd95]" name="tearDown" is-config="true" duration-ms="2241" started-at="2021-10-23T05:13:08Z" finished-at="2021-10-23T05:13:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
